@@ -1,2 +1,2 @@
 # BasicFramework
-This is a BasicFramework of 'BlueStorm'
+This is a BasicFramework of 'BlueStormAndXiaoChun'
