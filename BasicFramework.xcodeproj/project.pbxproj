@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EA4C43B1E38346100364CAB /* TranAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4C43A1E38346100364CAB /* TranAnimation.m */; };
+		6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */; };
 		6EAF4CFE1E2DBA5800F19812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4CFD1E2DBA5800F19812 /* main.m */; };
 		6EAF4D011E2DBA5800F19812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D001E2DBA5800F19812 /* AppDelegate.m */; };
 		6EAF4D041E2DBA5800F19812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D031E2DBA5800F19812 /* ViewController.m */; };
@@ -23,6 +25,10 @@
 
 /* Begin PBXFileReference section */
 		339D8CAEAF39A283A4E7A0EA /* Pods-BasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA4C4391E38346100364CAB /* TranAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranAnimation.h; sourceTree = "<group>"; };
+		6EA4C43A1E38346100364CAB /* TranAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranAnimation.m; sourceTree = "<group>"; };
+		6EA4C43C1E3837D300364CAB /* YiXiangTranVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiXiangTranVC.h; sourceTree = "<group>"; };
+		6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiXiangTranVC.m; sourceTree = "<group>"; };
 		6EAF4CF91E2DBA5800F19812 /* BasicFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAF4CFD1E2DBA5800F19812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EAF4CFF1E2DBA5800F19812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +73,27 @@
 				F8EF328937721F3DB1A84483 /* Pods-BasicFramework.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6EA4C4371E38341400364CAB /* 相机相关 */ = {
+			isa = PBXGroup;
+			children = (
+				6EAF4D271E2DEB8F00F19812 /* CameraAlbumVC.h */,
+				6EAF4D281E2DEB8F00F19812 /* CameraAlbumVC.m */,
+				6EAF4D291E2DEB8F00F19812 /* CameraAlbumVC.xib */,
+			);
+			name = "相机相关";
+			sourceTree = "<group>";
+		};
+		6EA4C4381E38342000364CAB /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4C4391E38346100364CAB /* TranAnimation.h */,
+				6EA4C43A1E38346100364CAB /* TranAnimation.m */,
+				6EA4C43C1E3837D300364CAB /* YiXiangTranVC.h */,
+				6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */,
+			);
+			name = "转场动画";
 			sourceTree = "<group>";
 		};
 		6EAF4CF01E2DBA5800F19812 = {
@@ -163,9 +190,8 @@
 		6EAF4D231E2DEB5100F19812 /* Viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
-				6EAF4D271E2DEB8F00F19812 /* CameraAlbumVC.h */,
-				6EAF4D281E2DEB8F00F19812 /* CameraAlbumVC.m */,
-				6EAF4D291E2DEB8F00F19812 /* CameraAlbumVC.xib */,
+				6EA4C4381E38342000364CAB /* 转场动画 */,
+				6EA4C4371E38341400364CAB /* 相机相关 */,
 			);
 			name = Viewcontroller;
 			sourceTree = "<group>";
@@ -304,11 +330,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */,
+				6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */,
 				6EAF4D2A1E2DEB8F00F19812 /* CameraAlbumVC.m in Sources */,
 				6EAF4D041E2DBA5800F19812 /* ViewController.m in Sources */,
 				6EAF4D1C1E2DC1CB00F19812 /* DB.m in Sources */,
 				6EAF4D011E2DBA5800F19812 /* AppDelegate.m in Sources */,
 				6EAF4CFE1E2DBA5800F19812 /* main.m in Sources */,
+				6EA4C43B1E38346100364CAB /* TranAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

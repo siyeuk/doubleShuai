@@ -41,7 +41,7 @@
 }
 - (NSArray *)dataArr{
     if (!_dataArr) {
-        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"]];
+        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"],@[@"简单转场动画",@"TranAnimation"]];
     }
     return _dataArr;
 }
