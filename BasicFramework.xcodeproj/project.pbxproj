@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E7FBDF81E39853100694F69 /* TranAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDF71E39853100694F69 /* TranAnimationVC.m */; };
+		6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDFB1E39874200694F69 /* ElastiVC.m */; };
+		6E7FBDFF1E39879500694F69 /* ElastTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDFE1E39879500694F69 /* ElastTransiton.m */; };
+		6E7FBE051E398D2300694F69 /* ElastToVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBE041E398D2300694F69 /* ElastToVC.m */; };
 		6EA4C43B1E38346100364CAB /* TranAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4C43A1E38346100364CAB /* TranAnimation.m */; };
 		6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */; };
 		6EAF4CFE1E2DBA5800F19812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4CFD1E2DBA5800F19812 /* main.m */; };
@@ -25,6 +29,14 @@
 
 /* Begin PBXFileReference section */
 		339D8CAEAF39A283A4E7A0EA /* Pods-BasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		6E7FBDF61E39853100694F69 /* TranAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranAnimationVC.h; sourceTree = "<group>"; };
+		6E7FBDF71E39853100694F69 /* TranAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranAnimationVC.m; sourceTree = "<group>"; };
+		6E7FBDFA1E39874200694F69 /* ElastiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElastiVC.h; sourceTree = "<group>"; };
+		6E7FBDFB1E39874200694F69 /* ElastiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElastiVC.m; sourceTree = "<group>"; };
+		6E7FBDFD1E39879500694F69 /* ElastTransiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElastTransiton.h; sourceTree = "<group>"; };
+		6E7FBDFE1E39879500694F69 /* ElastTransiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElastTransiton.m; sourceTree = "<group>"; };
+		6E7FBE031E398D2300694F69 /* ElastToVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElastToVC.h; sourceTree = "<group>"; };
+		6E7FBE041E398D2300694F69 /* ElastToVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElastToVC.m; sourceTree = "<group>"; };
 		6EA4C4391E38346100364CAB /* TranAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranAnimation.h; sourceTree = "<group>"; };
 		6EA4C43A1E38346100364CAB /* TranAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranAnimation.m; sourceTree = "<group>"; };
 		6EA4C43C1E3837D300364CAB /* YiXiangTranVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiXiangTranVC.h; sourceTree = "<group>"; };
@@ -75,6 +87,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6E7FBDF91E3986E500694F69 /* 印象笔记 */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4C4391E38346100364CAB /* TranAnimation.h */,
+				6EA4C43A1E38346100364CAB /* TranAnimation.m */,
+				6EA4C43C1E3837D300364CAB /* YiXiangTranVC.h */,
+				6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */,
+			);
+			name = "印象笔记";
+			sourceTree = "<group>";
+		};
+		6E7FBE061E39BD5400694F69 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				6E7FBDFA1E39874200694F69 /* ElastiVC.h */,
+				6E7FBDFB1E39874200694F69 /* ElastiVC.m */,
+				6E7FBDFD1E39879500694F69 /* ElastTransiton.h */,
+				6E7FBDFE1E39879500694F69 /* ElastTransiton.m */,
+				6E7FBE031E398D2300694F69 /* ElastToVC.h */,
+				6E7FBE041E398D2300694F69 /* ElastToVC.m */,
+			);
+			name = "购物车";
+			sourceTree = "<group>";
+		};
 		6EA4C4371E38341400364CAB /* 相机相关 */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,10 +124,10 @@
 		6EA4C4381E38342000364CAB /* 转场动画 */ = {
 			isa = PBXGroup;
 			children = (
-				6EA4C4391E38346100364CAB /* TranAnimation.h */,
-				6EA4C43A1E38346100364CAB /* TranAnimation.m */,
-				6EA4C43C1E3837D300364CAB /* YiXiangTranVC.h */,
-				6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */,
+				6E7FBE061E39BD5400694F69 /* 购物车 */,
+				6E7FBDF91E3986E500694F69 /* 印象笔记 */,
+				6E7FBDF61E39853100694F69 /* TranAnimationVC.h */,
+				6E7FBDF71E39853100694F69 /* TranAnimationVC.m */,
 			);
 			name = "转场动画";
 			sourceTree = "<group>";
@@ -330,9 +366,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */,
+				6E7FBDFF1E39879500694F69 /* ElastTransiton.m in Sources */,
 				6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */,
+				6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */,
 				6EAF4D2A1E2DEB8F00F19812 /* CameraAlbumVC.m in Sources */,
+				6E7FBDF81E39853100694F69 /* TranAnimationVC.m in Sources */,
 				6EAF4D041E2DBA5800F19812 /* ViewController.m in Sources */,
+				6E7FBE051E398D2300694F69 /* ElastToVC.m in Sources */,
 				6EAF4D1C1E2DC1CB00F19812 /* DB.m in Sources */,
 				6EAF4D011E2DBA5800F19812 /* AppDelegate.m in Sources */,
 				6EAF4CFE1E2DBA5800F19812 /* main.m in Sources */,
