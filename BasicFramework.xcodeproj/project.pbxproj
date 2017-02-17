@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E52272F1E5692D200B447EF /* LSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52272E1E5692D200B447EF /* LSFileManager.m */; };
 		6E7FBDF81E39853100694F69 /* TranAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDF71E39853100694F69 /* TranAnimationVC.m */; };
 		6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDFB1E39874200694F69 /* ElastiVC.m */; };
 		6E7FBDFF1E39879500694F69 /* ElastTransiton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDFE1E39879500694F69 /* ElastTransiton.m */; };
@@ -29,6 +30,8 @@
 
 /* Begin PBXFileReference section */
 		339D8CAEAF39A283A4E7A0EA /* Pods-BasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		6E52272D1E5692D200B447EF /* LSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFileManager.h; sourceTree = "<group>"; };
+		6E52272E1E5692D200B447EF /* LSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFileManager.m; sourceTree = "<group>"; };
 		6E7FBDF61E39853100694F69 /* TranAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranAnimationVC.h; sourceTree = "<group>"; };
 		6E7FBDF71E39853100694F69 /* TranAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranAnimationVC.m; sourceTree = "<group>"; };
 		6E7FBDFA1E39874200694F69 /* ElastiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElastiVC.h; sourceTree = "<group>"; };
@@ -85,6 +88,22 @@
 				F8EF328937721F3DB1A84483 /* Pods-BasicFramework.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E52272C1E5692B700B447EF /* 文件管理类 */ = {
+			isa = PBXGroup;
+			children = (
+				6E52272D1E5692D200B447EF /* LSFileManager.h */,
+				6E52272E1E5692D200B447EF /* LSFileManager.m */,
+			);
+			name = "文件管理类";
+			sourceTree = "<group>";
+		};
+		6E5227301E56934600B447EF /* 按号段拦截好啊 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "按号段拦截好啊";
 			sourceTree = "<group>";
 		};
 		6E7FBDF91E3986E500694F69 /* 印象笔记 */ = {
@@ -176,6 +195,8 @@
 		6EAF4D151E2DBE1600F19812 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				6E5227301E56934600B447EF /* 按号段拦截好啊 */,
+				6E52272C1E5692B700B447EF /* 文件管理类 */,
 				6EAF4D211E2DC24900F19812 /* 全局文件 */,
 				6EAF4D1D1E2DC1E600F19812 /* 预处理文件 */,
 				6EAF4D191E2DC12D00F19812 /* 数据请求 */,
@@ -366,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */,
+				6E52272F1E5692D200B447EF /* LSFileManager.m in Sources */,
 				6E7FBDFF1E39879500694F69 /* ElastTransiton.m in Sources */,
 				6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */,
 				6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */,
