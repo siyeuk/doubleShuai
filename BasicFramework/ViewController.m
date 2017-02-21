@@ -41,10 +41,43 @@
 }
 - (NSArray *)dataArr{
     if (!_dataArr) {
-        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"],@[@"简单转场动画",@"TranAnimationVC"]];
+        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"],@[@"简单转场动画",@"TranAnimationVC"],@[@"图片浏览",@"ScrollPictureVC"],@[@"cell上按钮点击事件",@"ButtonOnCell"]];
     }
     return _dataArr;
 }
+
+/**
+ - (void)didSelectItem:(UIImage*)cellImage andTitle:(NSString*)title withRectInCollection:(CGRect)itemRect {
+ UIImageView *animateImage = [[UIImageView alloc] initWithFrame:itemRect];
+ animateImage.image = cellImage;
+ [self.view addSubview:animateImage];
+ 
+ __block CGPoint imgPoint;
+ self.calview.positionInViewBlock = ^(CGPoint point){
+ imgPoint = point;
+ };
+ 
+ //给计算器界面传值
+ self.calview.imageViewSize = itemRect.size;
+ self.calview.image = cellImage;
+ self.calview.typeName = title;
+ 
+ //设置贝塞尔曲线路径动画
+ UIBezierPath *path = [UIBezierPath bezierPath];
+ [path moveToPoint:animateImage.center];
+ [path addCurveToPoint:imgPoint controlPoint1:CGPointMake(animateImage.frame.origin.x, animateImage.frame.origin.y-100 ) controlPoint2:CGPointMake(animateImage.frame.origin.x, animateImage.frame.origin.y-100 )];
+ CAKeyframeAnimation *anmiation0 = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+ anmiation0.path = path.CGPath;
+ anmiation0.duration = 1;
+ anmiation0.removedOnCompletion = NO;
+ anmiation0.fillMode = kCAFillModeForwards;
+ [animateImage.layer addAnimation:anmiation0 forKey:nil];
+ [NSTimer scheduledTimerWithTimeInterval:1 repeats:NO block:^(NSTimer * _Nonnull timer) {
+ [animateImage removeFromSuperview];
+ }];
+ 
+ }
+ */
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
