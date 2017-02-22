@@ -41,7 +41,7 @@
 }
 - (NSArray *)dataArr{
     if (!_dataArr) {
-        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"],@[@"简单转场动画",@"TranAnimationVC"],@[@"图片浏览",@"ScrollPictureVC"],@[@"cell上按钮点击事件",@"ButtonOnCell"]];
+        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"],@[@"简单转场动画",@"TranAnimationVC"],@[@"图片浏览",@"ScrollPictureVC"],@[@"cell上按钮点击事件",@"ButtonOnCell"],@[@"二维码扫描与生成",@"QRCodeVC"]];
     }
     return _dataArr;
 }

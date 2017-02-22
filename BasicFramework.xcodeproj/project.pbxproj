@@ -25,10 +25,18 @@
 		6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D1F1E2DC20D00F19812 /* APPService.m */; };
 		6EAF4D2A1E2DEB8F00F19812 /* CameraAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D281E2DEB8F00F19812 /* CameraAlbumVC.m */; };
 		6EAF4D2B1E2DEB8F00F19812 /* CameraAlbumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF4D291E2DEB8F00F19812 /* CameraAlbumVC.xib */; };
+		6EE347691E5D1D0D00A98FD1 /* QRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347671E5D1D0D00A98FD1 /* QRCodeVC.m */; };
+		6EE3476A1E5D1D0D00A98FD1 /* QRCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE347681E5D1D0D00A98FD1 /* QRCodeVC.xib */; };
+		6EE3476D1E5D23D100A98FD1 /* CIImage+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE3476C1E5D23D100A98FD1 /* CIImage+SGExtension.m */; };
+		6EE347701E5D2A0600A98FD1 /* ScanCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE3476F1E5D2A0600A98FD1 /* ScanCodeVC.m */; };
+		6EE347731E5D2B4C00A98FD1 /* ScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347721E5D2B4C00A98FD1 /* ScanCodeView.m */; };
+		6EE347771E5D6D6200A98FD1 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347761E5D6D6200A98FD1 /* SFHFKeychainUtils.m */; };
+		6EE3477A1E5D6D9500A98FD1 /* KeychainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347791E5D6D9500A98FD1 /* KeychainStore.m */; };
 		6EE63D6B1E5C0A000005E4D1 /* ButtonOnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE63D6A1E5C0A000005E4D1 /* ButtonOnCell.m */; };
 		6EE63D6E1E5C0A1C0005E4D1 /* ButtonOnTBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE63D6D1E5C0A1C0005E4D1 /* ButtonOnTBVC.m */; };
 		6EE63D721E5C280F0005E4D1 /* VersionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE63D711E5C280F0005E4D1 /* VersionModel.m */; };
 		6EE63D751E5C28530005E4D1 /* CheckVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE63D741E5C28530005E4D1 /* CheckVersion.m */; };
+		6EE63D781E5C31F00005E4D1 /* AFNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE63D771E5C31F00005E4D1 /* AFNetworkingVC.m */; };
 		6EF92BE11E5AC18400DD2C20 /* ScrollPictureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF92BE01E5AC18400DD2C20 /* ScrollPictureVC.m */; };
 		6EF92BE31E5AD23C00DD2C20 /* 自由之翼.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6EF92BE21E5AD23C00DD2C20 /* 自由之翼.jpg */; };
 		6EF92BE61E5AD93700DD2C20 /* ScrollPicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EF92BE51E5AD93700DD2C20 /* ScrollPicView.m */; };
@@ -73,6 +81,19 @@
 		6EAF4D271E2DEB8F00F19812 /* CameraAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraAlbumVC.h; sourceTree = "<group>"; };
 		6EAF4D281E2DEB8F00F19812 /* CameraAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraAlbumVC.m; sourceTree = "<group>"; };
 		6EAF4D291E2DEB8F00F19812 /* CameraAlbumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraAlbumVC.xib; sourceTree = "<group>"; };
+		6EE347661E5D1D0D00A98FD1 /* QRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeVC.h; sourceTree = "<group>"; };
+		6EE347671E5D1D0D00A98FD1 /* QRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeVC.m; sourceTree = "<group>"; };
+		6EE347681E5D1D0D00A98FD1 /* QRCodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeVC.xib; sourceTree = "<group>"; };
+		6EE3476B1E5D23D100A98FD1 /* CIImage+SGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CIImage+SGExtension.h"; sourceTree = "<group>"; };
+		6EE3476C1E5D23D100A98FD1 /* CIImage+SGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CIImage+SGExtension.m"; sourceTree = "<group>"; };
+		6EE3476E1E5D2A0600A98FD1 /* ScanCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeVC.h; sourceTree = "<group>"; };
+		6EE3476F1E5D2A0600A98FD1 /* ScanCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeVC.m; sourceTree = "<group>"; };
+		6EE347711E5D2B4C00A98FD1 /* ScanCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeView.h; sourceTree = "<group>"; };
+		6EE347721E5D2B4C00A98FD1 /* ScanCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeView.m; sourceTree = "<group>"; };
+		6EE347751E5D6D6200A98FD1 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		6EE347761E5D6D6200A98FD1 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		6EE347781E5D6D9500A98FD1 /* KeychainStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainStore.h; sourceTree = "<group>"; };
+		6EE347791E5D6D9500A98FD1 /* KeychainStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainStore.m; sourceTree = "<group>"; };
 		6EE63D691E5C0A000005E4D1 /* ButtonOnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonOnCell.h; sourceTree = "<group>"; };
 		6EE63D6A1E5C0A000005E4D1 /* ButtonOnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonOnCell.m; sourceTree = "<group>"; };
 		6EE63D6C1E5C0A1C0005E4D1 /* ButtonOnTBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonOnTBVC.h; sourceTree = "<group>"; };
@@ -81,6 +102,8 @@
 		6EE63D711E5C280F0005E4D1 /* VersionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionModel.m; sourceTree = "<group>"; };
 		6EE63D731E5C28530005E4D1 /* CheckVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckVersion.h; sourceTree = "<group>"; };
 		6EE63D741E5C28530005E4D1 /* CheckVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckVersion.m; sourceTree = "<group>"; };
+		6EE63D761E5C31F00005E4D1 /* AFNetworkingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkingVC.h; sourceTree = "<group>"; };
+		6EE63D771E5C31F00005E4D1 /* AFNetworkingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkingVC.m; sourceTree = "<group>"; };
 		6EF92BDF1E5AC18400DD2C20 /* ScrollPictureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollPictureVC.h; sourceTree = "<group>"; };
 		6EF92BE01E5AC18400DD2C20 /* ScrollPictureVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollPictureVC.m; sourceTree = "<group>"; };
 		6EF92BE21E5AD23C00DD2C20 /* 自由之翼.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "自由之翼.jpg"; sourceTree = "<group>"; };
@@ -120,13 +143,6 @@
 				6E52272E1E5692D200B447EF /* LSFileManager.m */,
 			);
 			name = "文件管理类";
-			sourceTree = "<group>";
-		};
-		6E5227301E56934600B447EF /* 按号段拦截好啊 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "按号段拦截好啊";
 			sourceTree = "<group>";
 		};
 		6E7FBDF91E3986E500694F69 /* 印象笔记 */ = {
@@ -218,8 +234,8 @@
 		6EAF4D151E2DBE1600F19812 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				6EE347741E5D6D1500A98FD1 /* 钥匙串存储 */,
 				6EE63D6F1E5C27E10005E4D1 /* 版本更新 */,
-				6E5227301E56934600B447EF /* 按号段拦截好啊 */,
 				6E52272C1E5692B700B447EF /* 文件管理类 */,
 				6EAF4D211E2DC24900F19812 /* 全局文件 */,
 				6EAF4D1D1E2DC1E600F19812 /* 预处理文件 */,
@@ -271,6 +287,8 @@
 		6EAF4D231E2DEB5100F19812 /* Viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				6EE347621E5D1C9D00A98FD1 /* 二维码扫描与生成 */,
+				6EE63D791E5C31F60005E4D1 /* AFNetworking */,
 				6EE63D681E5C09C50005E4D1 /* cell上按钮 */,
 				6EF92BE71E5AE9FA00DD2C20 /* 发朋友圈 */,
 				6EF92BDE1E5AC0AD00DD2C20 /* 图片浏览 */,
@@ -278,6 +296,33 @@
 				6EA4C4371E38341400364CAB /* 相机相关 */,
 			);
 			name = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		6EE347621E5D1C9D00A98FD1 /* 二维码扫描与生成 */ = {
+			isa = PBXGroup;
+			children = (
+				6EE347661E5D1D0D00A98FD1 /* QRCodeVC.h */,
+				6EE347671E5D1D0D00A98FD1 /* QRCodeVC.m */,
+				6EE347681E5D1D0D00A98FD1 /* QRCodeVC.xib */,
+				6EE3476B1E5D23D100A98FD1 /* CIImage+SGExtension.h */,
+				6EE3476C1E5D23D100A98FD1 /* CIImage+SGExtension.m */,
+				6EE3476E1E5D2A0600A98FD1 /* ScanCodeVC.h */,
+				6EE3476F1E5D2A0600A98FD1 /* ScanCodeVC.m */,
+				6EE347711E5D2B4C00A98FD1 /* ScanCodeView.h */,
+				6EE347721E5D2B4C00A98FD1 /* ScanCodeView.m */,
+			);
+			name = "二维码扫描与生成";
+			sourceTree = "<group>";
+		};
+		6EE347741E5D6D1500A98FD1 /* 钥匙串存储 */ = {
+			isa = PBXGroup;
+			children = (
+				6EE347751E5D6D6200A98FD1 /* SFHFKeychainUtils.h */,
+				6EE347761E5D6D6200A98FD1 /* SFHFKeychainUtils.m */,
+				6EE347781E5D6D9500A98FD1 /* KeychainStore.h */,
+				6EE347791E5D6D9500A98FD1 /* KeychainStore.m */,
+			);
+			name = "钥匙串存储";
 			sourceTree = "<group>";
 		};
 		6EE63D681E5C09C50005E4D1 /* cell上按钮 */ = {
@@ -300,6 +345,15 @@
 				6EE63D711E5C280F0005E4D1 /* VersionModel.m */,
 			);
 			name = "版本更新";
+			sourceTree = "<group>";
+		};
+		6EE63D791E5C31F60005E4D1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				6EE63D761E5C31F00005E4D1 /* AFNetworkingVC.h */,
+				6EE63D771E5C31F00005E4D1 /* AFNetworkingVC.m */,
+			);
+			name = AFNetworking;
 			sourceTree = "<group>";
 		};
 		6EF92BDE1E5AC0AD00DD2C20 /* 图片浏览 */ = {
@@ -395,6 +449,7 @@
 			files = (
 				6EAF4D2B1E2DEB8F00F19812 /* CameraAlbumVC.xib in Resources */,
 				6EAF4D141E2DBA7700F19812 /* README.md in Resources */,
+				6EE3476A1E5D1D0D00A98FD1 /* QRCodeVC.xib in Resources */,
 				6EAF4D0C1E2DBA5800F19812 /* LaunchScreen.storyboard in Resources */,
 				6EAF4D091E2DBA5800F19812 /* Assets.xcassets in Resources */,
 				6EAF4D071E2DBA5800F19812 /* Main.storyboard in Resources */,
@@ -458,6 +513,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF92BE11E5AC18400DD2C20 /* ScrollPictureVC.m in Sources */,
+				6EE347731E5D2B4C00A98FD1 /* ScanCodeView.m in Sources */,
+				6EE347771E5D6D6200A98FD1 /* SFHFKeychainUtils.m in Sources */,
 				6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */,
 				6EF92BEA1E5AEA7100DD2C20 /* SendPengyouQuan.m in Sources */,
 				6E52272F1E5692D200B447EF /* LSFileManager.m in Sources */,
@@ -465,12 +522,17 @@
 				6E7FBDFF1E39879500694F69 /* ElastTransiton.m in Sources */,
 				6EE63D721E5C280F0005E4D1 /* VersionModel.m in Sources */,
 				6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */,
+				6EE347701E5D2A0600A98FD1 /* ScanCodeVC.m in Sources */,
 				6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */,
 				6EAF4D2A1E2DEB8F00F19812 /* CameraAlbumVC.m in Sources */,
+				6EE3476D1E5D23D100A98FD1 /* CIImage+SGExtension.m in Sources */,
+				6EE347691E5D1D0D00A98FD1 /* QRCodeVC.m in Sources */,
 				6E7FBDF81E39853100694F69 /* TranAnimationVC.m in Sources */,
 				6EAF4D041E2DBA5800F19812 /* ViewController.m in Sources */,
 				6EE63D6E1E5C0A1C0005E4D1 /* ButtonOnTBVC.m in Sources */,
 				6EE63D751E5C28530005E4D1 /* CheckVersion.m in Sources */,
+				6EE3477A1E5D6D9500A98FD1 /* KeychainStore.m in Sources */,
+				6EE63D781E5C31F00005E4D1 /* AFNetworkingVC.m in Sources */,
 				6E7FBE051E398D2300694F69 /* ElastToVC.m in Sources */,
 				6EAF4D1C1E2DC1CB00F19812 /* DB.m in Sources */,
 				6EAF4D011E2DBA5800F19812 /* AppDelegate.m in Sources */,

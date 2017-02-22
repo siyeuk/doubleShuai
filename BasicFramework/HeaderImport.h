@@ -12,6 +12,7 @@
 
 #import <Masonry/Masonry.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
+#import <IQKeyboardManager/IQTextView.h>
 #import <FMDB/FMDB.h>
 #import <MagicalRecord/MagicalRecord.h>
 #import <AFNetworking/AFNetworking.h>
