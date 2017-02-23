@@ -14,6 +14,16 @@
 		6E7FBE051E398D2300694F69 /* ElastToVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBE041E398D2300694F69 /* ElastToVC.m */; };
 		6EA4C43B1E38346100364CAB /* TranAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4C43A1E38346100364CAB /* TranAnimation.m */; };
 		6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */; };
+		6EA984FA1E5E88CB0090D53B /* WKWebViewBaidu.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA984F91E5E88CB0090D53B /* WKWebViewBaidu.m */; };
+		6EA984FE1E5E89160090D53B /* WKWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA984FC1E5E89160090D53B /* WKWebViewVC.m */; };
+		6EA984FF1E5E89160090D53B /* WKWebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA984FD1E5E89160090D53B /* WKWebViewVC.xib */; };
+		6EA985021E5E8A060090D53B /* WKWebViewJS.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA985011E5E8A060090D53B /* WKWebViewJS.m */; };
+		6EA9850A1E5EB9D80090D53B /* ScreenChangeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA985081E5EB9D80090D53B /* ScreenChangeVC.m */; };
+		6EA9850B1E5EB9D80090D53B /* ScreenChangeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA985091E5EB9D80090D53B /* ScreenChangeVC.xib */; };
+		6EA9850F1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9850E1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.m */; };
+		6EA985121E5EC8CB0090D53B /* WeChatStylePlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA985111E5EC8CB0090D53B /* WeChatStylePlaceHolder.m */; };
+		6EA985151E5EC8D20090D53B /* XTNetReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA985141E5EC8D20090D53B /* XTNetReloader.m */; };
+		6EA985191E5EC8FB0090D53B /* TableViewPlaceVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA985181E5EC8FB0090D53B /* TableViewPlaceVC.m */; };
 		6EAF4CFE1E2DBA5800F19812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4CFD1E2DBA5800F19812 /* main.m */; };
 		6EAF4D011E2DBA5800F19812 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D001E2DBA5800F19812 /* AppDelegate.m */; };
 		6EAF4D041E2DBA5800F19812 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D031E2DBA5800F19812 /* ViewController.m */; };
@@ -30,7 +40,7 @@
 		6EE3476D1E5D23D100A98FD1 /* CIImage+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE3476C1E5D23D100A98FD1 /* CIImage+SGExtension.m */; };
 		6EE347701E5D2A0600A98FD1 /* ScanCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE3476F1E5D2A0600A98FD1 /* ScanCodeVC.m */; };
 		6EE347731E5D2B4C00A98FD1 /* ScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347721E5D2B4C00A98FD1 /* ScanCodeView.m */; };
-		6EE347771E5D6D6200A98FD1 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347761E5D6D6200A98FD1 /* SFHFKeychainUtils.m */; };
+		6EE347771E5D6D6200A98FD1 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347761E5D6D6200A98FD1 /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6EE3477A1E5D6D9500A98FD1 /* KeychainStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347791E5D6D9500A98FD1 /* KeychainStore.m */; };
 		6EE63D6B1E5C0A000005E4D1 /* ButtonOnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE63D6A1E5C0A000005E4D1 /* ButtonOnCell.m */; };
 		6EE63D6E1E5C0A1C0005E4D1 /* ButtonOnTBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE63D6D1E5C0A1C0005E4D1 /* ButtonOnTBVC.m */; };
@@ -60,6 +70,24 @@
 		6EA4C43A1E38346100364CAB /* TranAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TranAnimation.m; sourceTree = "<group>"; };
 		6EA4C43C1E3837D300364CAB /* YiXiangTranVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YiXiangTranVC.h; sourceTree = "<group>"; };
 		6EA4C43D1E3837D300364CAB /* YiXiangTranVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YiXiangTranVC.m; sourceTree = "<group>"; };
+		6EA984F81E5E88CB0090D53B /* WKWebViewBaidu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewBaidu.h; sourceTree = "<group>"; };
+		6EA984F91E5E88CB0090D53B /* WKWebViewBaidu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewBaidu.m; sourceTree = "<group>"; };
+		6EA984FB1E5E89160090D53B /* WKWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewVC.h; sourceTree = "<group>"; };
+		6EA984FC1E5E89160090D53B /* WKWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewVC.m; sourceTree = "<group>"; };
+		6EA984FD1E5E89160090D53B /* WKWebViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKWebViewVC.xib; sourceTree = "<group>"; };
+		6EA985001E5E8A060090D53B /* WKWebViewJS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJS.h; sourceTree = "<group>"; };
+		6EA985011E5E8A060090D53B /* WKWebViewJS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJS.m; sourceTree = "<group>"; };
+		6EA985071E5EB9D80090D53B /* ScreenChangeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenChangeVC.h; sourceTree = "<group>"; };
+		6EA985081E5EB9D80090D53B /* ScreenChangeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenChangeVC.m; sourceTree = "<group>"; };
+		6EA985091E5EB9D80090D53B /* ScreenChangeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreenChangeVC.xib; sourceTree = "<group>"; };
+		6EA9850D1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LSTableViewPlaceHolder.h"; sourceTree = "<group>"; };
+		6EA9850E1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LSTableViewPlaceHolder.m"; sourceTree = "<group>"; };
+		6EA985101E5EC8CB0090D53B /* WeChatStylePlaceHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatStylePlaceHolder.h; sourceTree = "<group>"; };
+		6EA985111E5EC8CB0090D53B /* WeChatStylePlaceHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatStylePlaceHolder.m; sourceTree = "<group>"; };
+		6EA985131E5EC8D20090D53B /* XTNetReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNetReloader.h; sourceTree = "<group>"; };
+		6EA985141E5EC8D20090D53B /* XTNetReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNetReloader.m; sourceTree = "<group>"; };
+		6EA985171E5EC8FB0090D53B /* TableViewPlaceVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewPlaceVC.h; sourceTree = "<group>"; };
+		6EA985181E5EC8FB0090D53B /* TableViewPlaceVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewPlaceVC.m; sourceTree = "<group>"; };
 		6EAF4CF91E2DBA5800F19812 /* BasicFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EAF4CFD1E2DBA5800F19812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6EAF4CFF1E2DBA5800F19812 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -190,6 +218,45 @@
 			name = "转场动画";
 			sourceTree = "<group>";
 		};
+		6EA984F41E5E7EBE0090D53B /* WKWebView使用 */ = {
+			isa = PBXGroup;
+			children = (
+				6EA984FB1E5E89160090D53B /* WKWebViewVC.h */,
+				6EA984FC1E5E89160090D53B /* WKWebViewVC.m */,
+				6EA984FD1E5E89160090D53B /* WKWebViewVC.xib */,
+				6EA984F81E5E88CB0090D53B /* WKWebViewBaidu.h */,
+				6EA984F91E5E88CB0090D53B /* WKWebViewBaidu.m */,
+				6EA985001E5E8A060090D53B /* WKWebViewJS.h */,
+				6EA985011E5E8A060090D53B /* WKWebViewJS.m */,
+			);
+			name = "WKWebView使用";
+			sourceTree = "<group>";
+		};
+		6EA985061E5EB9B30090D53B /* 横竖屏切换 */ = {
+			isa = PBXGroup;
+			children = (
+				6EA985071E5EB9D80090D53B /* ScreenChangeVC.h */,
+				6EA985081E5EB9D80090D53B /* ScreenChangeVC.m */,
+				6EA985091E5EB9D80090D53B /* ScreenChangeVC.xib */,
+			);
+			name = "横竖屏切换";
+			sourceTree = "<group>";
+		};
+		6EA9850C1E5EBC450090D53B /* 集成空白占位图 */ = {
+			isa = PBXGroup;
+			children = (
+				6EA9850D1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.h */,
+				6EA9850E1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.m */,
+				6EA985101E5EC8CB0090D53B /* WeChatStylePlaceHolder.h */,
+				6EA985111E5EC8CB0090D53B /* WeChatStylePlaceHolder.m */,
+				6EA985131E5EC8D20090D53B /* XTNetReloader.h */,
+				6EA985141E5EC8D20090D53B /* XTNetReloader.m */,
+				6EA985171E5EC8FB0090D53B /* TableViewPlaceVC.h */,
+				6EA985181E5EC8FB0090D53B /* TableViewPlaceVC.m */,
+			);
+			name = "集成空白占位图";
+			sourceTree = "<group>";
+		};
 		6EAF4CF01E2DBA5800F19812 = {
 			isa = PBXGroup;
 			children = (
@@ -287,6 +354,9 @@
 		6EAF4D231E2DEB5100F19812 /* Viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				6EA9850C1E5EBC450090D53B /* 集成空白占位图 */,
+				6EA985061E5EB9B30090D53B /* 横竖屏切换 */,
+				6EA984F41E5E7EBE0090D53B /* WKWebView使用 */,
 				6EE347621E5D1C9D00A98FD1 /* 二维码扫描与生成 */,
 				6EE63D791E5C31F60005E4D1 /* AFNetworking */,
 				6EE63D681E5C09C50005E4D1 /* cell上按钮 */,
@@ -450,7 +520,9 @@
 				6EAF4D2B1E2DEB8F00F19812 /* CameraAlbumVC.xib in Resources */,
 				6EAF4D141E2DBA7700F19812 /* README.md in Resources */,
 				6EE3476A1E5D1D0D00A98FD1 /* QRCodeVC.xib in Resources */,
+				6EA9850B1E5EB9D80090D53B /* ScreenChangeVC.xib in Resources */,
 				6EAF4D0C1E2DBA5800F19812 /* LaunchScreen.storyboard in Resources */,
+				6EA984FF1E5E89160090D53B /* WKWebViewVC.xib in Resources */,
 				6EAF4D091E2DBA5800F19812 /* Assets.xcassets in Resources */,
 				6EAF4D071E2DBA5800F19812 /* Main.storyboard in Resources */,
 				6EF92BE31E5AD23C00DD2C20 /* 自由之翼.jpg in Resources */,
@@ -512,10 +584,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA984FE1E5E89160090D53B /* WKWebViewVC.m in Sources */,
 				6EF92BE11E5AC18400DD2C20 /* ScrollPictureVC.m in Sources */,
 				6EE347731E5D2B4C00A98FD1 /* ScanCodeView.m in Sources */,
 				6EE347771E5D6D6200A98FD1 /* SFHFKeychainUtils.m in Sources */,
 				6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */,
+				6EA985151E5EC8D20090D53B /* XTNetReloader.m in Sources */,
 				6EF92BEA1E5AEA7100DD2C20 /* SendPengyouQuan.m in Sources */,
 				6E52272F1E5692D200B447EF /* LSFileManager.m in Sources */,
 				6EF92BE61E5AD93700DD2C20 /* ScrollPicView.m in Sources */,
@@ -523,8 +597,11 @@
 				6EE63D721E5C280F0005E4D1 /* VersionModel.m in Sources */,
 				6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */,
 				6EE347701E5D2A0600A98FD1 /* ScanCodeVC.m in Sources */,
+				6EA9850A1E5EB9D80090D53B /* ScreenChangeVC.m in Sources */,
 				6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */,
 				6EAF4D2A1E2DEB8F00F19812 /* CameraAlbumVC.m in Sources */,
+				6EA984FA1E5E88CB0090D53B /* WKWebViewBaidu.m in Sources */,
+				6EA9850F1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.m in Sources */,
 				6EE3476D1E5D23D100A98FD1 /* CIImage+SGExtension.m in Sources */,
 				6EE347691E5D1D0D00A98FD1 /* QRCodeVC.m in Sources */,
 				6E7FBDF81E39853100694F69 /* TranAnimationVC.m in Sources */,
@@ -532,13 +609,16 @@
 				6EE63D6E1E5C0A1C0005E4D1 /* ButtonOnTBVC.m in Sources */,
 				6EE63D751E5C28530005E4D1 /* CheckVersion.m in Sources */,
 				6EE3477A1E5D6D9500A98FD1 /* KeychainStore.m in Sources */,
+				6EA985021E5E8A060090D53B /* WKWebViewJS.m in Sources */,
 				6EE63D781E5C31F00005E4D1 /* AFNetworkingVC.m in Sources */,
 				6E7FBE051E398D2300694F69 /* ElastToVC.m in Sources */,
 				6EAF4D1C1E2DC1CB00F19812 /* DB.m in Sources */,
 				6EAF4D011E2DBA5800F19812 /* AppDelegate.m in Sources */,
 				6EAF4CFE1E2DBA5800F19812 /* main.m in Sources */,
+				6EA985121E5EC8CB0090D53B /* WeChatStylePlaceHolder.m in Sources */,
 				6EA4C43B1E38346100364CAB /* TranAnimation.m in Sources */,
 				6EE63D6B1E5C0A000005E4D1 /* ButtonOnCell.m in Sources */,
+				6EA985191E5EC8FB0090D53B /* TableViewPlaceVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScreenChangeVC">
+            <connections>
+                <outlet property="VerticalView" destination="jIg-3b-TCZ" id="BYP-g3-jpL"/>
+                <outlet property="landscapeView" destination="Ppq-Yw-N4T" id="k9D-vT-uS9"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="311" y="258"/>
+        </view>
+        <view contentMode="scaleToFill" id="jIg-3b-TCZ">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="X1O-f0-wjv">
+                    <rect key="frame" x="20" y="40" width="335" height="587"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">人在一生之中，总有些酸楚的往事，让人泪流满面，令你不堪回首；也总有一些甜蜜的回忆，让人沉醉不醒，痴迷而又流连忘返。而一些生死离别的无奈，相聚重逢的喜悦，放弃与执着，忧愁和快乐，心痛过的，感动中的，都宛如一首跌宕起伏的人生交响乐。既有千回百转的悱侧惆怅，又有情深意意的悠悠旋律，不时的在你心中回荡。徘徊。萦绕。在那往昔的经历中，纵有秀山丽水，旖旎梦境，纵是花前月下，呢喃细语的缠绵回忆，终抵不过此时百感交集的一声轻叹，一脸无奈，一缕清怨。 </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="X1O-f0-wjv" secondAttribute="trailing" constant="20" id="EUR-ga-vmz"/>
+                <constraint firstItem="X1O-f0-wjv" firstAttribute="top" secondItem="jIg-3b-TCZ" secondAttribute="top" constant="40" id="h5I-GA-OhK"/>
+                <constraint firstAttribute="bottom" secondItem="X1O-f0-wjv" secondAttribute="bottom" constant="40" id="sdw-8n-KO1"/>
+                <constraint firstItem="X1O-f0-wjv" firstAttribute="leading" secondItem="jIg-3b-TCZ" secondAttribute="leading" constant="20" id="xal-VK-g5M"/>
+            </constraints>
+            <point key="canvasLocation" x="89" y="-487"/>
+        </view>
+        <view contentMode="scaleToFill" id="Ppq-Yw-N4T">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4vM-JM-ldL">
+                    <rect key="frame" x="40" y="40" width="295" height="587"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">每个人都有他的脾气，每个人都有他的压力与无奈，尘世中没有哪一方净土能让人不受到伤害。职场上的徘徊不前，被人暗算，心力交瘁；感情上的千回百转，始终遇不见对的人，面对年老父母的催促，烦躁又无奈，被冠以不孝的罪名。在这个城市年复一年却付不起一套房子的首付，永远处在缺钱借钱的状态中，想要的生活总是在前方，总是差一段距离。 </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="4vM-JM-ldL" firstAttribute="top" secondItem="Ppq-Yw-N4T" secondAttribute="top" constant="40" id="4fZ-Bv-pKH"/>
+                <constraint firstAttribute="trailing" secondItem="4vM-JM-ldL" secondAttribute="trailing" constant="40" id="6C7-jW-Gca"/>
+                <constraint firstAttribute="bottom" secondItem="4vM-JM-ldL" secondAttribute="bottom" constant="40" id="HYP-aF-rcf"/>
+                <constraint firstItem="4vM-JM-ldL" firstAttribute="leading" secondItem="Ppq-Yw-N4T" secondAttribute="leading" constant="40" id="qON-c6-22s"/>
+            </constraints>
+            <point key="canvasLocation" x="518" y="-486"/>
+        </view>
+    </objects>
+</document>

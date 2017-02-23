@@ -6,7 +6,7 @@ This is a BasicFramework of 'BlueStormAndXiaoChun'</br>
 1.0.4 新增文件管理类，添加OSChina源码，增加XMPP DEMO</br>
 1.0.5 新增图片浏览,版本更新检测，cell上的按钮点击的两种方法</br>
 1.0.6 二维码生成和扫描,钥匙串管理</br>
-</br>
+1.0.7 WKWebView的使用,横屏竖屏，使用不同的view，xib版,增加tableView空白占位图</br>
 </br>
 </br>
 </br>
