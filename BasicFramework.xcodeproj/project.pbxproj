@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0DF7861E63C06C00AB770C /* AlertViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF7841E63C06C00AB770C /* AlertViewVC.m */; };
+		6E0DF7871E63C06C00AB770C /* AlertViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0DF7851E63C06C00AB770C /* AlertViewVC.xib */; };
+		6E0DF78B1E63C0B000AB770C /* JCAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E0DF7881E63C0B000AB770C /* JCAlertView.bundle */; };
+		6E0DF78C1E63C0B000AB770C /* JCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF78A1E63C0B000AB770C /* JCAlertView.m */; };
+		6E0DF7901E63D28200AB770C /* BluetoothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF78F1E63D28200AB770C /* BluetoothVC.m */; };
 		6E52272F1E5692D200B447EF /* LSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52272E1E5692D200B447EF /* LSFileManager.m */; };
 		6E7FBDF81E39853100694F69 /* TranAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDF71E39853100694F69 /* TranAnimationVC.m */; };
 		6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDFB1E39874200694F69 /* ElastiVC.m */; };
@@ -35,6 +40,14 @@
 		6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D1F1E2DC20D00F19812 /* APPService.m */; };
 		6EAF4D2A1E2DEB8F00F19812 /* CameraAlbumVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAF4D281E2DEB8F00F19812 /* CameraAlbumVC.m */; };
 		6EAF4D2B1E2DEB8F00F19812 /* CameraAlbumVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EAF4D291E2DEB8F00F19812 /* CameraAlbumVC.xib */; };
+		6EC8588B1E653CD90021EFFD /* PYSearchExampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8588A1E653CD90021EFFD /* PYSearchExampleController.m */; };
+		6EC8589B1E653CF70021EFFD /* NSBundle+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8588E1E653CF70021EFFD /* NSBundle+PYSearchExtension.m */; };
+		6EC8589C1E653CF70021EFFD /* PYSearch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6EC8588F1E653CF70021EFFD /* PYSearch.bundle */; };
+		6EC8589D1E653CF70021EFFD /* PYSearchConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC858921E653CF70021EFFD /* PYSearchConst.m */; };
+		6EC8589E1E653CF70021EFFD /* PYSearchSuggestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC858941E653CF70021EFFD /* PYSearchSuggestionViewController.m */; };
+		6EC8589F1E653CF70021EFFD /* PYSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC858961E653CF70021EFFD /* PYSearchViewController.m */; };
+		6EC858A01E653CF70021EFFD /* UIColor+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC858981E653CF70021EFFD /* UIColor+PYSearchExtension.m */; };
+		6EC858A11E653CF70021EFFD /* UIView+PYSearchExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC8589A1E653CF70021EFFD /* UIView+PYSearchExtension.m */; };
 		6EE347691E5D1D0D00A98FD1 /* QRCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE347671E5D1D0D00A98FD1 /* QRCodeVC.m */; };
 		6EE3476A1E5D1D0D00A98FD1 /* QRCodeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EE347681E5D1D0D00A98FD1 /* QRCodeVC.xib */; };
 		6EE3476D1E5D23D100A98FD1 /* CIImage+SGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE3476C1E5D23D100A98FD1 /* CIImage+SGExtension.m */; };
@@ -56,6 +69,14 @@
 
 /* Begin PBXFileReference section */
 		339D8CAEAF39A283A4E7A0EA /* Pods-BasicFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BasicFramework/Pods-BasicFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		6E0DF7831E63C06C00AB770C /* AlertViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewVC.h; sourceTree = "<group>"; };
+		6E0DF7841E63C06C00AB770C /* AlertViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewVC.m; sourceTree = "<group>"; };
+		6E0DF7851E63C06C00AB770C /* AlertViewVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertViewVC.xib; sourceTree = "<group>"; };
+		6E0DF7881E63C0B000AB770C /* JCAlertView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JCAlertView.bundle; sourceTree = "<group>"; };
+		6E0DF7891E63C0B000AB770C /* JCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCAlertView.h; sourceTree = "<group>"; };
+		6E0DF78A1E63C0B000AB770C /* JCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAlertView.m; sourceTree = "<group>"; };
+		6E0DF78E1E63D28200AB770C /* BluetoothVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothVC.h; sourceTree = "<group>"; };
+		6E0DF78F1E63D28200AB770C /* BluetoothVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothVC.m; sourceTree = "<group>"; };
 		6E52272D1E5692D200B447EF /* LSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFileManager.h; sourceTree = "<group>"; };
 		6E52272E1E5692D200B447EF /* LSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFileManager.m; sourceTree = "<group>"; };
 		6E7FBDF61E39853100694F69 /* TranAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranAnimationVC.h; sourceTree = "<group>"; };
@@ -109,6 +130,22 @@
 		6EAF4D271E2DEB8F00F19812 /* CameraAlbumVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraAlbumVC.h; sourceTree = "<group>"; };
 		6EAF4D281E2DEB8F00F19812 /* CameraAlbumVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraAlbumVC.m; sourceTree = "<group>"; };
 		6EAF4D291E2DEB8F00F19812 /* CameraAlbumVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraAlbumVC.xib; sourceTree = "<group>"; };
+		6EC858891E653CD90021EFFD /* PYSearchExampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchExampleController.h; sourceTree = "<group>"; };
+		6EC8588A1E653CD90021EFFD /* PYSearchExampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchExampleController.m; sourceTree = "<group>"; };
+		6EC8588D1E653CF70021EFFD /* NSBundle+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+PYSearchExtension.h"; sourceTree = "<group>"; };
+		6EC8588E1E653CF70021EFFD /* NSBundle+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+PYSearchExtension.m"; sourceTree = "<group>"; };
+		6EC8588F1E653CF70021EFFD /* PYSearch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PYSearch.bundle; sourceTree = "<group>"; };
+		6EC858901E653CF70021EFFD /* PYSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearch.h; sourceTree = "<group>"; };
+		6EC858911E653CF70021EFFD /* PYSearchConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchConst.h; sourceTree = "<group>"; };
+		6EC858921E653CF70021EFFD /* PYSearchConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchConst.m; sourceTree = "<group>"; };
+		6EC858931E653CF70021EFFD /* PYSearchSuggestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchSuggestionViewController.h; sourceTree = "<group>"; };
+		6EC858941E653CF70021EFFD /* PYSearchSuggestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchSuggestionViewController.m; sourceTree = "<group>"; };
+		6EC858951E653CF70021EFFD /* PYSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSearchViewController.h; sourceTree = "<group>"; };
+		6EC858961E653CF70021EFFD /* PYSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSearchViewController.m; sourceTree = "<group>"; };
+		6EC858971E653CF70021EFFD /* UIColor+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PYSearchExtension.h"; sourceTree = "<group>"; };
+		6EC858981E653CF70021EFFD /* UIColor+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PYSearchExtension.m"; sourceTree = "<group>"; };
+		6EC858991E653CF70021EFFD /* UIView+PYSearchExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PYSearchExtension.h"; sourceTree = "<group>"; };
+		6EC8589A1E653CF70021EFFD /* UIView+PYSearchExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PYSearchExtension.m"; sourceTree = "<group>"; };
 		6EE347661E5D1D0D00A98FD1 /* QRCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeVC.h; sourceTree = "<group>"; };
 		6EE347671E5D1D0D00A98FD1 /* QRCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeVC.m; sourceTree = "<group>"; };
 		6EE347681E5D1D0D00A98FD1 /* QRCodeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QRCodeVC.xib; sourceTree = "<group>"; };
@@ -162,6 +199,28 @@
 				F8EF328937721F3DB1A84483 /* Pods-BasicFramework.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E0DF7821E63C02000AB770C /* 弹窗 */ = {
+			isa = PBXGroup;
+			children = (
+				6E0DF7881E63C0B000AB770C /* JCAlertView.bundle */,
+				6E0DF7891E63C0B000AB770C /* JCAlertView.h */,
+				6E0DF78A1E63C0B000AB770C /* JCAlertView.m */,
+				6E0DF7831E63C06C00AB770C /* AlertViewVC.h */,
+				6E0DF7841E63C06C00AB770C /* AlertViewVC.m */,
+				6E0DF7851E63C06C00AB770C /* AlertViewVC.xib */,
+			);
+			name = "弹窗";
+			sourceTree = "<group>";
+		};
+		6E0DF78D1E63D26500AB770C /* 蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+				6E0DF78E1E63D28200AB770C /* BluetoothVC.h */,
+				6E0DF78F1E63D28200AB770C /* BluetoothVC.m */,
+			);
+			name = "蓝牙";
 			sourceTree = "<group>";
 		};
 		6E52272C1E5692B700B447EF /* 文件管理类 */ = {
@@ -255,6 +314,13 @@
 				6EA985181E5EC8FB0090D53B /* TableViewPlaceVC.m */,
 			);
 			name = "集成空白占位图";
+			sourceTree = "<group>";
+		};
+		6EA9851A1E5ED5510090D53B /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "转场动画";
 			sourceTree = "<group>";
 		};
 		6EAF4CF01E2DBA5800F19812 = {
@@ -354,6 +420,10 @@
 		6EAF4D231E2DEB5100F19812 /* Viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				6EC858881E653C570021EFFD /* Search框架 */,
+				6E0DF78D1E63D26500AB770C /* 蓝牙 */,
+				6E0DF7821E63C02000AB770C /* 弹窗 */,
+				6EA9851A1E5ED5510090D53B /* 转场动画 */,
 				6EA9850C1E5EBC450090D53B /* 集成空白占位图 */,
 				6EA985061E5EB9B30090D53B /* 横竖屏切换 */,
 				6EA984F41E5E7EBE0090D53B /* WKWebView使用 */,
@@ -366,6 +436,37 @@
 				6EA4C4371E38341400364CAB /* 相机相关 */,
 			);
 			name = Viewcontroller;
+			sourceTree = "<group>";
+		};
+		6EC858881E653C570021EFFD /* Search框架 */ = {
+			isa = PBXGroup;
+			children = (
+				6EC8588C1E653CF70021EFFD /* PYSearch */,
+				6EC858891E653CD90021EFFD /* PYSearchExampleController.h */,
+				6EC8588A1E653CD90021EFFD /* PYSearchExampleController.m */,
+			);
+			name = "Search框架";
+			sourceTree = "<group>";
+		};
+		6EC8588C1E653CF70021EFFD /* PYSearch */ = {
+			isa = PBXGroup;
+			children = (
+				6EC8588D1E653CF70021EFFD /* NSBundle+PYSearchExtension.h */,
+				6EC8588E1E653CF70021EFFD /* NSBundle+PYSearchExtension.m */,
+				6EC8588F1E653CF70021EFFD /* PYSearch.bundle */,
+				6EC858901E653CF70021EFFD /* PYSearch.h */,
+				6EC858911E653CF70021EFFD /* PYSearchConst.h */,
+				6EC858921E653CF70021EFFD /* PYSearchConst.m */,
+				6EC858931E653CF70021EFFD /* PYSearchSuggestionViewController.h */,
+				6EC858941E653CF70021EFFD /* PYSearchSuggestionViewController.m */,
+				6EC858951E653CF70021EFFD /* PYSearchViewController.h */,
+				6EC858961E653CF70021EFFD /* PYSearchViewController.m */,
+				6EC858971E653CF70021EFFD /* UIColor+PYSearchExtension.h */,
+				6EC858981E653CF70021EFFD /* UIColor+PYSearchExtension.m */,
+				6EC858991E653CF70021EFFD /* UIView+PYSearchExtension.h */,
+				6EC8589A1E653CF70021EFFD /* UIView+PYSearchExtension.m */,
+			);
+			path = PYSearch;
 			sourceTree = "<group>";
 		};
 		6EE347621E5D1C9D00A98FD1 /* 二维码扫描与生成 */ = {
@@ -517,14 +618,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0DF78B1E63C0B000AB770C /* JCAlertView.bundle in Resources */,
 				6EAF4D2B1E2DEB8F00F19812 /* CameraAlbumVC.xib in Resources */,
 				6EAF4D141E2DBA7700F19812 /* README.md in Resources */,
 				6EE3476A1E5D1D0D00A98FD1 /* QRCodeVC.xib in Resources */,
 				6EA9850B1E5EB9D80090D53B /* ScreenChangeVC.xib in Resources */,
+				6E0DF7871E63C06C00AB770C /* AlertViewVC.xib in Resources */,
 				6EAF4D0C1E2DBA5800F19812 /* LaunchScreen.storyboard in Resources */,
 				6EA984FF1E5E89160090D53B /* WKWebViewVC.xib in Resources */,
 				6EAF4D091E2DBA5800F19812 /* Assets.xcassets in Resources */,
 				6EAF4D071E2DBA5800F19812 /* Main.storyboard in Resources */,
+				6EC8589C1E653CF70021EFFD /* PYSearch.bundle in Resources */,
 				6EF92BE31E5AD23C00DD2C20 /* 自由之翼.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,22 +689,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EA984FE1E5E89160090D53B /* WKWebViewVC.m in Sources */,
+				6EC8589B1E653CF70021EFFD /* NSBundle+PYSearchExtension.m in Sources */,
 				6EF92BE11E5AC18400DD2C20 /* ScrollPictureVC.m in Sources */,
 				6EE347731E5D2B4C00A98FD1 /* ScanCodeView.m in Sources */,
+				6EC8588B1E653CD90021EFFD /* PYSearchExampleController.m in Sources */,
+				6EC858A11E653CF70021EFFD /* UIView+PYSearchExtension.m in Sources */,
 				6EE347771E5D6D6200A98FD1 /* SFHFKeychainUtils.m in Sources */,
 				6EAF4D201E2DC20D00F19812 /* APPService.m in Sources */,
 				6EA985151E5EC8D20090D53B /* XTNetReloader.m in Sources */,
 				6EF92BEA1E5AEA7100DD2C20 /* SendPengyouQuan.m in Sources */,
+				6E0DF78C1E63C0B000AB770C /* JCAlertView.m in Sources */,
 				6E52272F1E5692D200B447EF /* LSFileManager.m in Sources */,
+				6EC8589F1E653CF70021EFFD /* PYSearchViewController.m in Sources */,
 				6EF92BE61E5AD93700DD2C20 /* ScrollPicView.m in Sources */,
 				6E7FBDFF1E39879500694F69 /* ElastTransiton.m in Sources */,
 				6EE63D721E5C280F0005E4D1 /* VersionModel.m in Sources */,
 				6EA4C43E1E3837D300364CAB /* YiXiangTranVC.m in Sources */,
+				6E0DF7861E63C06C00AB770C /* AlertViewVC.m in Sources */,
 				6EE347701E5D2A0600A98FD1 /* ScanCodeVC.m in Sources */,
+				6EC858A01E653CF70021EFFD /* UIColor+PYSearchExtension.m in Sources */,
 				6EA9850A1E5EB9D80090D53B /* ScreenChangeVC.m in Sources */,
 				6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */,
 				6EAF4D2A1E2DEB8F00F19812 /* CameraAlbumVC.m in Sources */,
 				6EA984FA1E5E88CB0090D53B /* WKWebViewBaidu.m in Sources */,
+				6E0DF7901E63D28200AB770C /* BluetoothVC.m in Sources */,
 				6EA9850F1E5EBCE50090D53B /* UITableView+LSTableViewPlaceHolder.m in Sources */,
 				6EE3476D1E5D23D100A98FD1 /* CIImage+SGExtension.m in Sources */,
 				6EE347691E5D1D0D00A98FD1 /* QRCodeVC.m in Sources */,
@@ -618,7 +730,9 @@
 				6EA985121E5EC8CB0090D53B /* WeChatStylePlaceHolder.m in Sources */,
 				6EA4C43B1E38346100364CAB /* TranAnimation.m in Sources */,
 				6EE63D6B1E5C0A000005E4D1 /* ButtonOnCell.m in Sources */,
+				6EC8589D1E653CF70021EFFD /* PYSearchConst.m in Sources */,
 				6EA985191E5EC8FB0090D53B /* TableViewPlaceVC.m in Sources */,
+				6EC8589E1E653CF70021EFFD /* PYSearchSuggestionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

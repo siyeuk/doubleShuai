@@ -56,7 +56,6 @@
 - (void)POST:(NSString *)url inPut:(NSDictionary *)dic success:(SuccessBlockType)successBlock failer:(FailedBlockType)failedBlock{
     
     
-    
     [self.manager POST:url parameters:dic progress:^(NSProgress * _Nonnull uploadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
