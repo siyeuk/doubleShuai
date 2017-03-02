@@ -41,7 +41,20 @@
 }
 - (NSArray *)dataArr{
     if (!_dataArr) {
-        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"],@[@"简单转场动画",@"TranAnimationVC"],@[@"图片浏览",@"ScrollPictureVC"],@[@"cell上按钮点击事件",@"ButtonOnCell"],@[@"二维码扫描与生成",@"QRCodeVC"],@[@"WKWebView使用",@"WKWebViewVC"],@[@"横竖屏切换",@"ScreenChangeVC"],@[@"tableView占位图",@"TableViewPlaceVC"],@[@"各种弹窗(第三方)",@"AlertViewVC"],@[@"蓝牙",@"BluetoothVC"],@[@"search框架(第三方)",@"PYSearchExampleController"]];
+        _dataArr = @[@[@"系统相册功能",@"CameraAlbumVC"],
+                     @[@"简单转场动画",@"TranAnimationVC"],
+                     @[@"图片浏览",@"ScrollPictureVC"],
+                     @[@"cell上按钮点击事件",@"ButtonOnCell"],
+                     @[@"二维码扫描与生成",@"QRCodeVC"],
+                     @[@"WKWebView使用",@"WKWebViewVC"],
+                     @[@"横竖屏切换",@"ScreenChangeVC"],
+                     @[@"tableView占位图",@"TableViewPlaceVC"],
+                     @[@"各种弹窗(第三方)",@"AlertViewVC"],
+                     @[@"蓝牙",@"BluetoothVC"],
+                     @[@"search框架(第三方)",@"PYSearchExampleController"],
+                     @[@"MVVM实现tableview",@"MVVMController"],
+                     @[@"旋转视图",@"RountViewController"]
+                     ];
     }
     return _dataArr;
 }

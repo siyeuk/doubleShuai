@@ -8,7 +8,7 @@ This is a BasicFramework of 'BlueStormAndXiaoChun'</br>
 1.0.6 二维码生成和扫描,钥匙串管理</br>
 1.0.7 WKWebView的使用,横屏竖屏，使用不同的view，xib版,增加tableView空白占位图</br>
 1.0.8 新增蓝牙功能，可以链接外设，增加一个弹窗，还有一个search框架</br>
-</br>
+1.0.9 MVVM实现tableView，修复WKWebView跳转异常</br>
 </br>
 </br>
 

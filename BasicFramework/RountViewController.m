@@ -1,32 +1,30 @@
 //
-//  WKWebViewVC.m
+//  RountViewController.m
 //  BasicFramework
 //
-//  Created by 我叫哀木涕 on 2017/2/23.
+//  Created by 我叫哀木涕 on 2017/3/1.
 //  Copyright © 2017年 我叫哀木涕. All rights reserved.
 //
 
-#import "WKWebViewVC.h"
-#import "WKWebViewBaidu.h"
-#import "WKWebViewJS.h"
+#import "RountViewController.h"
+#import "LSRoundView.h"
+@interface RountViewController ()
 
-@interface WKWebViewVC ()
+@property (nonatomic,strong) LSRoundView *roundView;
 
 @end
 
-@implementation WKWebViewVC
+@implementation RountViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    self.roundView = [[LSRoundView alloc] initWithFrame:CGRectMake(10, 50, SCREEN_W-20, SCREEN_W-20)];
+    self.roundView.centerImage = [UIImage imageNamed:@"roundImage"];
+    self.roundView.isPlay = YES;
+    [self.view addSubview:self.roundView];
+    // Do any additional setup after loading the view.
 }
-- (IBAction)openBaiDu:(UIButton *)sender {
-    [self.navigationController pushViewController:[[WKWebViewBaidu alloc] init] animated:YES];
-}
-- (IBAction)jsCheck:(UIButton *)sender {
-     [self.navigationController pushViewController:[[WKWebViewJS alloc] init] animated:YES];
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
