@@ -12,6 +12,7 @@
 		6E0DF78B1E63C0B000AB770C /* JCAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E0DF7881E63C0B000AB770C /* JCAlertView.bundle */; };
 		6E0DF78C1E63C0B000AB770C /* JCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF78A1E63C0B000AB770C /* JCAlertView.m */; };
 		6E0DF7901E63D28200AB770C /* BluetoothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0DF78F1E63D28200AB770C /* BluetoothVC.m */; };
+		6E48428B1E6F90460097D1A0 /* RuntimeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4842891E6F90460097D1A0 /* RuntimeKit.m */; };
 		6E52272F1E5692D200B447EF /* LSFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E52272E1E5692D200B447EF /* LSFileManager.m */; };
 		6E7FBDF81E39853100694F69 /* TranAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDF71E39853100694F69 /* TranAnimationVC.m */; };
 		6E7FBDFC1E39874200694F69 /* ElastiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7FBDFB1E39874200694F69 /* ElastiVC.m */; };
@@ -88,6 +89,8 @@
 		6E0DF78A1E63C0B000AB770C /* JCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCAlertView.m; sourceTree = "<group>"; };
 		6E0DF78E1E63D28200AB770C /* BluetoothVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothVC.h; sourceTree = "<group>"; };
 		6E0DF78F1E63D28200AB770C /* BluetoothVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothVC.m; sourceTree = "<group>"; };
+		6E4842891E6F90460097D1A0 /* RuntimeKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeKit.m; sourceTree = "<group>"; };
+		6E48428A1E6F90460097D1A0 /* RuntimeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeKit.h; sourceTree = "<group>"; };
 		6E52272D1E5692D200B447EF /* LSFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSFileManager.h; sourceTree = "<group>"; };
 		6E52272E1E5692D200B447EF /* LSFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSFileManager.m; sourceTree = "<group>"; };
 		6E7FBDF61E39853100694F69 /* TranAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TranAnimationVC.h; sourceTree = "<group>"; };
@@ -254,6 +257,15 @@
 			name = "蓝牙";
 			sourceTree = "<group>";
 		};
+		6E4842881E6F903D0097D1A0 /* RunTime */ = {
+			isa = PBXGroup;
+			children = (
+				6E4842891E6F90460097D1A0 /* RuntimeKit.m */,
+				6E48428A1E6F90460097D1A0 /* RuntimeKit.h */,
+			);
+			name = RunTime;
+			sourceTree = "<group>";
+		};
 		6E52272C1E5692B700B447EF /* 文件管理类 */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +425,7 @@
 		6EAF4D151E2DBE1600F19812 /* 工具 */ = {
 			isa = PBXGroup;
 			children = (
+				6E4842881E6F903D0097D1A0 /* RunTime */,
 				6EE347741E5D6D1500A98FD1 /* 钥匙串存储 */,
 				6EE63D6F1E5C27E10005E4D1 /* 版本更新 */,
 				6E52272C1E5692B700B447EF /* 文件管理类 */,
@@ -846,6 +859,7 @@
 				6EE63D6E1E5C0A1C0005E4D1 /* ButtonOnTBVC.m in Sources */,
 				6EE63D751E5C28530005E4D1 /* CheckVersion.m in Sources */,
 				6EE3477A1E5D6D9500A98FD1 /* KeychainStore.m in Sources */,
+				6E48428B1E6F90460097D1A0 /* RuntimeKit.m in Sources */,
 				6EA985021E5E8A060090D53B /* WKWebViewJS.m in Sources */,
 				6EE63D781E5C31F00005E4D1 /* AFNetworkingVC.m in Sources */,
 				6E7FBE051E398D2300694F69 /* ElastToVC.m in Sources */,
